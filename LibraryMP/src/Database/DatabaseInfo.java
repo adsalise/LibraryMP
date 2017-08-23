@@ -1,4 +1,4 @@
-
+package Database;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -13,7 +13,7 @@ import java.sql.SQLException;
  *
  * @author jncor
  */
-public class Database
+public class DatabaseInfo
 {
     private static final String connectionString = "jdbc:mysql://DESKTOP-B322RD1:3306/test?useSSL=false";
     private static final String username = "noel";
