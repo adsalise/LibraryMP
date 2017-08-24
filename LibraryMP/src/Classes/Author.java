@@ -13,6 +13,7 @@ public class Author
 {
     private String firstName;
     private String lastName;
+    private String str;
     
     Author()
     {
